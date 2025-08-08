@@ -41,18 +41,19 @@ body{
 
 .title{
     font-size: 1.125rem;
-    margin: .75rem .75rem 0rem .75rem;
+    margin: 1rem 1rem 0rem 1rem;
 }
 
 .body-text{
     font-size: .875rem;
     color: var(--color-dark-grey);
-    margin: .75rem;
+    margin: 1rem;
     margin-top: .35rem;
+    line-height: 1.25rem;
 }
 
 hr{
-    border-color: var(--color-light-grey);
+    border: 0.016rem solid var(--color-light-grey);
 }
 
 .small-text{
@@ -65,7 +66,7 @@ hr{
     background-color: var(--color-periwinkle);
     border-radius: 30px;
     width: 3rem;
-    margin: .75rem;
+    margin: 1rem;
     text-align: center;
     height: 1rem;
 }
